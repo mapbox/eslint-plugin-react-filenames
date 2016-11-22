@@ -14,7 +14,7 @@ $ npm install eslint
 If you installed `ESLint` globally, you have to install React plugin globally too. Otherwise, install it locally.
 
 ```sh
-$ npm install eslint-plugin-react
+$ npm install eslint-plugin-react-filenames
 ```
 
 # Configuration
@@ -24,7 +24,7 @@ Add `plugins` section and specify ESLint-plugin-React as a plugin.
 ```json
 {
   "plugins": [
-    "react/filenames"
+    "react-filenames"
   ]
 }
 ```
