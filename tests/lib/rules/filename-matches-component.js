@@ -137,7 +137,7 @@ ruleTester.run('filename-matches-component', rule, {
     parserOptions: parserOptions,
     filename: 'hi.js',
     errors: [{
-      message: 'Component name hello does not match filename hi'
+      message: 'Component name Component (component) does not match filename hi'
     }]
   }, {
     code: [
@@ -153,7 +153,7 @@ ruleTester.run('filename-matches-component', rule, {
     filename: 'hi.js',
     parserOptions: parserOptions,
     errors: [{
-      message: 'Component name hello does not match filename hi'
+      message: 'Component name Hello (hello) does not match filename hi'
     }]
   }]
 });
