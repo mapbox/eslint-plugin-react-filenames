@@ -79,7 +79,6 @@ ruleTester.run('filename-matches-component', rule, {
       'var BearsSpiders = () => (<div>Hello {this.props.name}</div>);'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'bears_spiders.js',
     parserOptions: parserOptions
@@ -88,7 +87,6 @@ ruleTester.run('filename-matches-component', rule, {
       'function FolksWolves() { return (<div>Hello {this.props.name}</div>) };'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'folks_wolves.js',
     parserOptions: parserOptions
@@ -97,7 +95,6 @@ ruleTester.run('filename-matches-component', rule, {
       'var DontLook = function() { return (<div>Hello {this.props.name}</div>) };'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'dont_look.js',
     parserOptions: parserOptions
@@ -106,7 +103,6 @@ ruleTester.run('filename-matches-component', rule, {
       'module.exports.JohnSmith = function() { return (<div>Hello {this.props.name}</div>) };'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'john_smith.js',
     parserOptions: parserOptions
@@ -119,7 +115,6 @@ ruleTester.run('filename-matches-component', rule, {
       '});'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'hello.js',
     parserOptions: parserOptions
@@ -148,7 +143,6 @@ ruleTester.run('filename-matches-component', rule, {
       '});'
     ].join('\n'),
     options: [{
-      acceptTranspilerName: true
     }],
     filename: 'hi.js',
     parserOptions: parserOptions,

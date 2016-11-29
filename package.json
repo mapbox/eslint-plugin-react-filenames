@@ -26,7 +26,8 @@
   "homepage": "https://github.com/mapbox/eslint-plugin-react-filenames",
   "bugs": "https://github.com/yannickcr/mapbox-plugin-react-filenames/issues",
   "dependencies": {
-    "decamelize": "^1.1.2"
+    "decamelize": "^1.1.2",
+    "doctrine": "2.0.0"
   },
   "devDependencies": {
     "babel-eslint": "7.1.0",
