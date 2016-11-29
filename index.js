@@ -9,7 +9,7 @@ module.exports = {
   configs: {
     recommended: {
       plugin: [
-        'react'
+        'react-filenames'
       ],
       parserOptions: {
         ecmaFeatures: {
